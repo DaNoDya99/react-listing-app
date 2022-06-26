@@ -1,0 +1,27 @@
+.header-section {
+    display: flex;
+    flex-direction: column; /* we want to stack on top of other */
+    align-items: center; /*align items horizontally center*/
+    font-family: 'Nunito sans', sans-serif;
+    color: var(--primary-color);
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.hero-text-subtitle {
+    position: absolute;
+    top: 18%;
+    font-size: 22px;
+}
+
+.hero-text-title {
+    position: absolute;
+    top: 20%;
+    font-size: 90px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}

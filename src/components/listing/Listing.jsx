@@ -1,0 +1,19 @@
+import React from 'react'
+import ListingItem from '../listingitem/ListingItem'
+import './Listing.css'
+
+function Listing() {
+  return (
+    <div className='listing-section'>
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+      <ListingItem />
+    </div>
+  )
+}
+
+export default Listing
